@@ -1,0 +1,122 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color: #f5f5f5;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+.navbar{
+    background-color: #f65506;
+    height: 80px;
+   
+}
+.nav-link{
+color: #fff !important;
+font-weight: 600 !important;
+}
+.nav-link:hover{
+    background-color: #ce4a09;
+    border-radius: 15px;
+}
+.search{
+    margin-left: 100px;
+
+}
+.input{
+    width: 450px !important;
+    border-radius: 12px !important;
+    position: relative;
+}
+.btn{
+    position: absolute;
+     right: 320px;
+     background-color: #f656065b !important;
+     width: 50px !important;
+    padding: 2px !important;
+     margin-top: 5px;
+    color: #f65506 !important; 
+}
+.main2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    flex-wrap: nowrap;
+    height: 310px;
+    /* background-color: #3F0686; */
+}
+.categories{
+    width:300px;
+    height: 300px;
+    border-radius: 10px;
+    color: #a09f9f;
+    background-color: #fff;
+    margin-right: 10px;
+    box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+-webkit-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+-moz-box-shadow: 2px 7px 17px 0px rgba(0,0,0,0.5);
+
+}
+.list-box{
+    list-style: none;
+}
+.slider{
+    width: 850px;
+}
+.carousel-inner{
+    height: 400px !important;
+    border-radius: 10px !important;
+}
+.main3-img{
+ 
+    width: 100%;
+    object-fit: contain;
+ 
+ 
+}
+.services{
+    font-size: 16px !important;
+    background-color: #FFF1EB;
+    padding: 10px;
+}
+.services:hover{
+    background-color: #f5e4dc;
+}
+.bi-check-square-fill{
+    color:#f65506;
+}
+.bi-truck{
+    color: #007787;
+}
+.bi-sign-turn-left-fill{
+    color: #3F0686;
+}
+.bi-tag-fill{
+    color: #f65506;
+}
+.bi-bag-check-fill{
+    color: #3F0686;
+}
+.categories-img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+   
+}
+.line{
+    height: 50px ;
+    width: 1px;
+    background-color: #c7b1a7;
+    margin-top:24px;
+}
+p{
+    text-align: center;
+}
+p:hover{
+    color: #f65506;
+}
